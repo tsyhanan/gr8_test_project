@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Brewery suite">
+    <test name="Search breweries">
+        <classes>
+            <class name="SearchBreweriesTests"></class>
+        </classes>
+    </test>
+</suite>
