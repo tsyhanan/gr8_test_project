@@ -29,17 +29,17 @@ the detailed functionality and behavior of the provided endpoint, the implemente
 and approximate parameters list primarily for illustrative purposes.
 
 Test Cases:
-1.Search breweries by valid query parameters test case - implemented
-2.Search breweries by invalid query parameters test case - implemented
-3.Search breweries when perPage parameter exceeded limit test case - implemented
+ - 1.Search breweries by valid query parameters test case - implemented
+ - 2.Search breweries by invalid query parameters test case - implemented
+ - 3.Search breweries when perPage parameter exceeded limit test case - implemented
 
 Based on the existing or available requirements, I would proceed to implement the following test cases:
-4.Valid Query, Default Per Page
-5.Valid Query, No Per Page Specified
+ - 4.Valid Query, Default Per Page
+ - 5.Valid Query, No Per Page Specified
 Negative Test Cases:
-6.Invalid Query (Not Found)
-7.Invalid Query (Empty)
-8.Invalid Per Page Value (Negative)
+ - 6.Invalid Query (Not Found)
+ - 7.Invalid Query (Empty)
+ - 8.Invalid Per Page Value (Negative)
 
 I have implemented validations that check whether the received information aligns with the search criteria.
 It is not practical to validate the entire content as the data within it is dynamic and can be changed.
